@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.itchunyang.scroller.MainActivity">
+
+
+        <Button
+            android:onClick="scrollTo"
+            android:text="scrollTo"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:onClick="scrollBy"
+            android:text="scrollBy"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="guide"
+        android:text="guide"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:background="#cccccc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:textAllCaps="false"
+            android:text="Button"
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <com.itchunyang.scroller.MyLinearLayout
+        android:layout_marginTop="10dp"
+        android:background="#ff0000"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+        <Button
+            android:text="aaaaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="aaaaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </com.itchunyang.scroller.MyLinearLayout>
+
+
+
+</LinearLayout>
